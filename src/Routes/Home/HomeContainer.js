@@ -7,7 +7,7 @@ export default class extends React.Component {
     upcoming: null,
     popular: null,
     error: null,
-    loading: true
+    loading: true,
   };
 
   render() {
@@ -20,6 +20,7 @@ export default class extends React.Component {
         error={error}
         loading={loading}
       />
+      // vgg
     );
   }
 }
